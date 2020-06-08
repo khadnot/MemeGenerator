@@ -1,3 +1,3 @@
 # Meme Generator
 
-Just my basic web based Meme Generator.
+Just my basic web based Meme Generator for Springboard.
