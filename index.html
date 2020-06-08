@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Kenn's Meme Generator</h1>
+    <h4>Fill out the form to start creating memes!</h4>
+
+    <form id="input">
+    <label for="url">Image URL:</label>
+    <input type="url" id="url" name="url" size="50" placeholder=" The URL for your meme image">
+    <br>
+    <br>
+    <label for="text1">Text on Top:</label>
+    <input type="text" id="text1" size="50" placeholder=" (Optional) Text for the top of the meme">
+    <br>
+    <br>
+    <label for="text2">Text on Bottom:</label>
+    <input type="text" id="text2" size="47" placeholder=" (Optional) Text for the bottom of the meme">
+    </form>
+
+    <br>
+
+    <div id="button">
+        <button id="submit" class="button">Create Meme</button>
+    </div>
+    <div id="memeLand">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
